@@ -24,23 +24,23 @@ header {
      color: red;
 }
 
-nav{
+nav {
     padding:10px;
     background-color: cornflowerblue;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     padding-left:20px;
     margin:0px;
 }
 
-nav ul li{
+nav ul li {
     display:inline-block;
     background-color: cornflowerblue;
 }
 
-nav ul li a{
+nav ul li a {
     background-color: cornflowerblue;
     color: blue;
     text-decoration: none;
@@ -50,18 +50,18 @@ nav ul li a{
     font-size:13px;
 }
 
-article ul{
+article ul {
     list-style-type: none;
     padding-left: 85px;
-    }
+}
 
-aside{
+aside {
     float: left;
     width: 190px;
     margin-right:20px;
 }
 
-.main{
+.main {
     float:left;
     width: 550px;
     height: 580px;
@@ -95,7 +95,7 @@ input, select {
     left: 600px;
 }
 
-div.ads{ 
+div.ads { 
     position: absolute;
     left: 700px;   
     top: 150px;
@@ -105,7 +105,7 @@ div.ads{
     padding-left: 10px;
 }
 
-footer{
+footer {
     clear:both;
     background-color: #555;
     color: #eee;
@@ -113,7 +113,7 @@ footer{
     border-radius: 15px;
 }
 
-footer h2{
+footer h2 {
     margin:0px;
     font-size:13px;
     padding:0 5px;
