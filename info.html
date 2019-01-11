@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+   <meta charset="UTF-8" />
+   <title>Fu</title>
+   <link rel="stylesheet" href=" normalize.css "/>
+   <script src="info.js"></script>
+</head>
+<body>
+   <div class="container">
+      <header>
+		  	<div class="header">
+					<img src="img/Maxxam.png" alt="logo" />
+				  <h1>Maxxam Store</h1>
+		  	</div>
+      </header>
+      <aside>
+        <nav>
+		    	<ul>
+			      <li> <a href="honesty.html"> Welcome </a> </li>
+			      <li><br /></li>
+			      <li> <a href="info.html"> User Information </a> </li>
+		    	</ul>
+		    </nav>
+      </aside>
+      <section class="main">
+        <article>
+          <h2>Log in</h2>
+          <form id='info' action="https://httpbin.org/post" method='post' name="signup" onsubmit="return formValidation(this);"> <br />
+            <div>
+              <label for="FirstName">First Name:</label>
+              <input type="text" name="FirstName" id="FirstName" value="" required/>
+            </div>
+            <br />
+            <div>
+              <label for="Last_Name">Last Name:</label>
+              <input type="text" name="Last_Name" id="Last_Name" value="" required/>
+            </div>
+		        <br />
+			    	<div>
+          		<label for="mail">E-mail:</label>
+			      	<input type="email" name="mail" id="mail" placeholder="Enter your email" required/>
+            </div> 
+            <br />
+            <div>
+              <label for="age">Age:</label>
+              <input type="text" name="age" id="age" value="" required/>
+            </div>
+            <br />
+            <div>
+              <label for="username">User Name:</label>
+              <input type="text" name="username" id="username" value="" required/>
+            </div>
+            <br />
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" value="" required/>
+            </div>
+            <br />
+            <div>
+              <label for="confirmPassword">Confirm Password:</label>
+              <input type="password" name="confirmPassword" id="confirmPassword" value="" required/>
+            </div>
+            <br />
+            <div>
+              <label for="degree">Eductation Level:</label>
+              <select name="Education Level" id="degree" size="1" required >
+                <option value="" selected> - select -</option>
+                <option value="Technical"> Technical Diploma </option>
+                <option value="college"> College Diploma </option>
+                <option value="bachelor"> Bachelor's Degree  </option>
+                <option value="master"> Master's Degree </option>
+                <option value="others"> Others </option>
+              </select>    
+            </div>
+            <br />            
+		    	  Education Status:
+			      <ul>
+			      	<li><input type="radio" name="Education Status" id="status-1" value="Graduated" checked>Graduated</li>   
+			      	<li><input type="radio" name="Education Status" id="status-2" value="Current enrolled">Current enrolled</li>   
+			      	<li><input type="radio" name="Education Status" id="status-3" value="Did not graduate" >Did not graduate</li>   
+            </ul>  
+            <input type="hidden" name="lastName" id="lastName" value="Fu" />
+            <input type="hidden" name="studentId" id="studentId" value="158899179" />     
+			  	  <br />		
+		      	<input type='submit' class="button1" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='reset' class="button2" value="Clear" onclick="clearError()" />
+			    </form>
+        </article>
+      </section>
+      <aside>
+      <div class="ads" id="errors"></div>
+      </aside>
+      <footer>
+        <h2>©2018 - &lt;Qirong Fu&gt;</h2>
+      </footer>
+   </div>
+</body>
+</html>
