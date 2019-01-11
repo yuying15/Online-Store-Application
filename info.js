@@ -131,7 +131,7 @@
 			      messages +="<p> * Password: Not Matching.</p>"
 			      allAlpha=false;
 		        }
-		}
+	      }
 			   	
      	      if(!allAlpha)
                  {
@@ -146,11 +146,11 @@
       //show error messages
       function showErrors(messages) {
 	  document.querySelector('#errors').innerHTML = messages;
-	}
+       }
 								
       //clear all error messages
     	function clearError(){
 	  document.querySelector('#errors').innerHTML = "";
-	}
+       }
 			 
 
